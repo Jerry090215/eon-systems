@@ -1,0 +1,70 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large data files (too big for GitHub, use download script)
+raw_data/
+mushroom_body/circuit.json
+mushroom_body/circuit_report.json
+
+# Runtime-generated files
+embodied_fly/fly_weights*.npz
+embodied_fly/current_genome.json
+embodied_fly/evolution_log.json
+embodied_fly/*.csv
+
+# Shared memory files (runtime only)
+/tmp/fly_brain.json
+/tmp/fly_vision.json
+/tmp/fly_thoughts.json
+
+# DesktopFly build artifacts
+desktop-fly/build/
+desktop-fly/.build/
+desktop-fly/DesktopFly
+desktop-fly/DerivedData/
+desktop-fly/*.xcodeproj/xcuserdata/
+desktop-fly/*.xcworkspace/xcuserdata/
+
+# Logs
+*.log
+logs/
+
+# Environment variables
+.env
+.env.local
